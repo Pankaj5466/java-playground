@@ -19,7 +19,7 @@ public class SpringFrameworkApplication {
 				applicationContext.getBean(SortNumber.class);
 
 		//using the class
-		int numbers[] = {1,3,4,5};
+		int[] numbers = {1,3,4,5};
 		int idx = sortNumber.binarySearch( numbers, 90);
 		System.out.println("idx: ${}");
 		System.out.println(idx);
