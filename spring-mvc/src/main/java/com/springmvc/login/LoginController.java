@@ -19,7 +19,8 @@ public class LoginController {
 	}
 
 	@RequestMapping(value = "/login", method = RequestMethod.POST)
-	public String handleUserLogin(ModelMap model, @RequestParam String name,
+	public String handleUserLogin(ModelMap model,
+								  @RequestParam String name,
 			@RequestParam String password) {
 
 		if (!loginService.validateUser(name, password)) {

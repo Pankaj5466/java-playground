@@ -33,7 +33,6 @@
         </dependency>
     </dependencies>
 
-
     <build>
         <finalName>spring-mvc</finalName>
         <pluginManagement>
@@ -60,7 +59,6 @@
                 </plugin>
             </plugins>
         </pluginManagement>
-
     </build>
 
 </project>

@@ -8,5 +8,4 @@ public class LoginService {
 		return user.equalsIgnoreCase("in28Minutes")
 				&& password.equals("dummy");
 	}
-
 }
